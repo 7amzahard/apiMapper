@@ -35,14 +35,6 @@ Learning Google Maps endpoints
 
 ✔ Easy to extend with new endpoints
 
-🖼️ Banner
-██   ██  ██████  ██      ██      ██       ██
-██   ██ ██    ██ ██      ██      ██       ██
-███████ ██    ██ ██      ██      ██       ██
-██   ██ ██    ██ ██      ██      ██       ██
-██   ██  ██████  ███████ ███████ ███████  ██
-
-            A P I   M A P P E R
 
 📦 Installation
 1. Clone the repository
@@ -156,4 +148,4 @@ MIT License (recommended).
 
 ✨ Author
 
-Created by yourname.
+Created by HamzaLouzi.
