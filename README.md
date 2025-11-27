@@ -1,93 +1,97 @@
-apiMapper
-======================================
+📍 apiMapper
 
 A multi-endpoint Google Maps API mapper for developers, researchers, and OSINT analysts.
 
-apiMapper is a Python-powered command-line tool that sends requests across multiple Google Maps Platform APIs—Static Maps, Street View, Geocoding, Directions, Roads, Timezone, Elevation, and more. 
+apiMapper is a Python-powered command-line tool that sends requests across multiple Google Maps Platform APIs—Static Maps, Street View, Geocoding, Directions, Roads, Timezone, Elevation, and more.
 It outputs clean, colorized JSON responses and includes an optional ASCII banner for style.
 
 Perfect for:
 
-- API testing
-- Rapid debugging
-- Geodata research
-- OSINT workflows
-- Learning Google Maps endpoints
+API testing
 
-======================================
-Features
-======================================
+Rapid debugging
 
-✔ Multi-endpoint Google Maps API testing  
-✔ Colorized terminal output  
-✔ Pixel-art banner  
-✔ Pretty JSON formatting  
-✔ Optional single-URL mode  
-✔ Error-safe request handling  
-✔ Simple CLI flags (--all, --url, --key)  
-✔ Easy to extend with new endpoints  
+Geodata research
 
-======================================
-Banner
-======================================
+OSINT workflows
 
-░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓█▓▒░      ░▒▓█▓▒░      ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓████████▓▒░▒▓████████▓▒░▒▓██████▓▒░ ░▒▓█████████████▓▒░  
-                                                                                      
+Learning Google Maps endpoints
 
-======================================
-Installation
-======================================
+🔥 Features
 
-1. Clone the repository:
-    git clone https://github.com/yourusername/apiMapper.git
-    cd apiMapper
+✔ Multi-endpoint Google Maps API testing
 
-2. Install dependencies:
-    pip install requests
+✔ Colorized terminal output
 
-3. Run:
-    python3 apiMapper.py --key YOUR_API_KEY --all
+✔ Pixel-art banner
 
-======================================
-Usage
-======================================
+✔ Pretty JSON formatting
 
-List all options:
-    python3 apiMapper.py --help
+✔ Optional single-URL mode
 
-Run all Google Maps endpoints:
-    python3 apiMapper.py --key YOUR_API_KEY --all
+✔ Error-safe request handling
 
-Test a single custom URL:
-    python3 apiMapper.py --key YOUR_API_KEY --url "https://maps.googleapis.com/maps/api/geocode/json?latlng=40,30&key=YOUR_API_KEY"
+✔ Simple CLI flags (--all, --url, --key)
 
-======================================
-Included Endpoints
-======================================
+✔ Easy to extend with new endpoints
+
+🖼️ Banner
+██   ██  ██████  ██      ██      ██       ██
+██   ██ ██    ██ ██      ██      ██       ██
+███████ ██    ██ ██      ██      ██       ██
+██   ██ ██    ██ ██      ██      ██       ██
+██   ██  ██████  ███████ ███████ ███████  ██
+
+            A P I   M A P P E R
+
+📦 Installation
+1. Clone the repository
+git clone https://github.com/yourusername/apiMapper.git
+cd apiMapper
+
+2. Install dependencies
+pip install requests
+
+3. Run
+python3 apiMapper.py --key YOUR_API_KEY --all
+
+🚀 Usage
+View help
+python3 apiMapper.py --help
+
+Run all Google Maps endpoints
+python3 apiMapper.py --key YOUR_API_KEY --all
+
+Test a custom URL
+python3 apiMapper.py --key YOUR_API_KEY --url "https://maps.googleapis.com/maps/api/geocode/json?latlng=40,30&key=YOUR_API_KEY"
+
+📡 Included Endpoints
 
 apiMapper automatically queries:
 
-- Static Maps API
-- Directions API
-- Street View API
-- Geocoding API
-- Distance Matrix API
-- Places API (Find Place, Autocomplete)
-- Elevation API
-- Time Zone API
-- Roads API
-- Geolocation API
+🗺️ Static Maps API
 
-======================================
-Example Output
-======================================
+🚗 Directions API
 
+🏞️ Street View API
+
+📍 Geocoding API
+
+🏁 Distance Matrix API
+
+🗂️ Places API (Find Place, Autocomplete)
+
+📈 Elevation API
+
+🕒 Time Zone API
+
+🛣️ Roads API
+
+📡 Geolocation API
+
+Each response is presented in clean, readable JSON.
+
+🧱 Example Output
 → URL: https://maps.googleapis.com/maps/api/geocode/json?latlng=40,30&key=...
 ✓ Success
 
@@ -95,62 +99,61 @@ Example Output
     "results": [...],
     "status": "OK"
 }
-
 -------------------------------------------------------
 
-======================================
-Configuration
-======================================
+🛠️ Configuration
 
-You only need one Google Maps API key with the following permissions:
+You only need one Google Maps API key with the following permissions enabled:
 
-- Geocoding API
-- Maps JavaScript API
-- Distance Matrix API
-- Directions API
-- Roads API
-- Timezone API
-- Elevation API
-- Street View API
-- Places API
+Geocoding API
 
-Billing must be enabled in your Google Cloud project.
+Maps JavaScript API
 
-======================================
-File Structure
-======================================
+Distance Matrix API
 
+Directions API
+
+Roads API
+
+Timezone API
+
+Elevation API
+
+Street View API
+
+Places API
+
+⚠️ Billing must be enabled in your Google Cloud project.
+
+📁 File Structure
 apiMapper/
 │
-├── apiMapper.py     (main tool)
-├── README.md        (documentation)
-└── LICENSE          (optional)
+├── apiMapper.py      # main tool
+├── README.md         # documentation
+└── LICENSE           # optional
 
-======================================
-Contributing
-======================================
+🤝 Contributing
 
 Contributions are welcome!
 
 You can:
 
-- Submit new endpoints
-- Add color themes
-- Improve the banner
-- Add parallel request support
-- Add export-to-file
+Add additional endpoints
 
-Open a pull request or create an issue.
+Improve color themes
 
-======================================
-License
-======================================
+Enhance the ASCII banner
 
-MIT License.
+Add multi-threading or batching
 
-======================================
-Author
-======================================
+Add response exporting
+
+Open a pull request or start an issue.
+
+⚖️ License
+
+MIT License (recommended).
+
+✨ Author
 
 Created by yourname.
-
